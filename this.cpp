@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 class buku {
     string judul;
     public:
@@ -13,6 +12,7 @@ class buku {
         return this->judul;
     }
 };
+
 
 int main() {
     buku bukunya;
