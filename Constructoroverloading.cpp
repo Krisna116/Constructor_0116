@@ -30,7 +30,6 @@ mahasiswa :: mahasiswa(int iNim, string iNama){
 
 }
 
-
 void mahasiswa::cetak(){
     cout << "Nimm : " << nim << endl;
     cout << "Nama : " << nama << endl;
@@ -42,3 +41,4 @@ int main() {
     mahasiswa mhs3("010203, Santi"); // Nim dan nama
 
 }
+
