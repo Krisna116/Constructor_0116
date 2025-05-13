@@ -14,7 +14,6 @@ class mahasiswa{
     void cetak();
 };
 
-
 mahasiswa :: mahasiswa() {
 
 }
@@ -30,6 +29,7 @@ mahasiswa :: mahasiswa(int iNim, string iNama){
     nim = iNim; //Definisi nim dan nama
 
 }
+
 
 void mahasiswa::cetak(){
     cout << "Nimm : " << nim << endl;
