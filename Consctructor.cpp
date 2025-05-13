@@ -5,3 +5,12 @@ class mahasiswa {
     public:
     mahasiswa(); //contructor
 };
+
+mahasiswa::mahasiswa(){
+    cout<<"Constructor Terpanggil"<<endl; //Definisi constructor
+};
+
+int main() {
+    mahasiswa mhs; // Pembuatan object
+    return 0;
+}
